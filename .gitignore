@@ -1,0 +1,89 @@
+#########################################
+# .NET Core / ASP.NET Core
+#########################################
+
+## Build results
+**/bin/
+**/obj/
+**/out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Logs
+*.log
+
+## Visual Studio
+.vscode/
+.vs/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+## Entity Framework
+**/Migrations/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Others
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+#########################################
+# Angular (Angular CLI, version 19)
+#########################################
+
+# Client App build & dependencies
+/client/node_modules/
+client/dist/
+client/tmp/
+client/out-tsc/
+client/.angular/
+
+# Logs & cache
+client/npm-debug.log*
+client/yarn-error.log*
+client/.sass-cache/
+client/.cache/
+client/.angular/cache/
+client/connect.lock
+client/libpeerconnection.log
+client/testem.log
+client/coverage/
+
+# Environment files (optional - chứa secrets)
+client/src/environments/environment*.ts
+client/.env
+client/.env.*
+
+# IDEs and editors
+client/.idea/
+client/.vscode/
+client/.history/
+client/.project
+client/.classpath
+client/.settings/
+client/.c9/
+client/*.launch
+client/*.sublime-workspace
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+#########################################
+# VS Code Workspace (chỉ giữ config cần thiết)
+#########################################
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
